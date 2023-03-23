@@ -18,7 +18,7 @@ function adicionaLinha(){
     if(nomes.includes(inputnomeContato.value)){
         alert(`O nome: ${inputnomeContato.value} já foi inserido`)
     }
-    else if (numeros.includes(inputnumeroContato.value)){
+    else if (numeros.includes(Number(inputnumeroContato.value))){
         alert(`O número: ${inputnumeroContato.value} já foi inserido`)
     }
     else {
